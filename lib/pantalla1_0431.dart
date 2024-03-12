@@ -7,17 +7,20 @@ class Pantalla1_0431 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla1 Armenta0431'),
-        backgroundColor: Colors.brown,
+        title: Text("Pantalla1 Armenta0431"),
+        backgroundColor: Color(0xff1a1cb0),
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: Text("Pantalla1"),
-            )
-          ],
+        // Simple Card
+        child: Card(
+          color: Color(0xff717d9b),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Flutter Teacher',
+              style: TextStyle(fontSize: 30, color: Color(0xff3d1717)),
+            ),
+          ),
         ),
       ),
     );
