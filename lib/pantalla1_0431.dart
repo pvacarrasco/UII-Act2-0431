@@ -11,15 +11,16 @@ class Pantalla1_0431 extends StatelessWidget {
         backgroundColor: Color(0xff1a1cb0),
       ),
       body: Center(
-        // Simple Card
-        child: Card(
-          color: Color(0xff717d9b),
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Flutter Teacher',
-              style: TextStyle(fontSize: 30, color: Color(0xff3d1717)),
-            ),
+        child: Container(
+          color: Color(0xff7589dc),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Tarjeta1 Vianney Armenta0431',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
