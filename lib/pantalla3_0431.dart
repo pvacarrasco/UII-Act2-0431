@@ -8,8 +8,8 @@ class Pantalla3_0431 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla 3 Armenta0431'),
-        backgroundColor: Color(0xff1e495d),
+        title: Text('Pantalla3 Armenta0431'),
+        backgroundColor: Color(0xff467d98),
       ),
       body: Center(
         child: Container(

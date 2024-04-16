@@ -8,19 +8,30 @@ class Pantalla1_0431 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla1 Armenta0431"),
-        backgroundColor: Color(0xff1a1cb0),
+        backgroundColor: Color(0xff4ba0d7),
       ),
       body: Center(
-        child: Container(
-          color: Color(0xff7589dc),
-          width: 300,
-          height: 300,
-          padding: EdgeInsets.all(32),
-          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
-          alignment: Alignment.center,
-          child: Text(
-            'Tarjeta1 Vianney Armenta0431',
-            style: TextStyle(fontSize: 30),
+        child: Align(
+          alignment: Alignment.topCenter,
+          child: Container(
+            margin: EdgeInsets.only(top: 20),
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              border: Border.all(
+                color: Color(0xff37ede4),
+                width: 10,
+              ),
+            ),
+            width: 280,
+            height: 280,
+            alignment: Alignment.center,
+            child: Text(
+              'VA',
+              style: TextStyle(
+                fontSize: 180,
+                color: Colors.orange,
+              ),
+            ),
           ),
         ),
       ),
